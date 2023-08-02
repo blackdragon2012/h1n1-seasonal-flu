@@ -44,8 +44,16 @@ E. Results
 
 •	In Data classification for first approach, we have used XGBoost machine learning algorithm and for the second approach we have used Logistic regression machine learning algorithm. Looking at Table 1 we can see that Logistic regression for H1N1 vaccine has got the highest score of 83% for training data set compared to 82% and 78% of Logistic regression for Seasonal vaccine and XGBoost respectively. When it comes to predicting on test data set, we can see that similar to training data set Logistic regression for H1N1 vaccine has got the exact same 83% while Logistic regression for Seasonal vaccine has got 78% which is lower than 82% that it got in training data set. Lastly, we can see that XGBoost got 66% in the test dataset which is low enough than 78% to hint that there might be a very slight over fitting of the model. Saying that, we can see that Logistic regression for H1N1 vaccine has got the highest ROC AUC score of 85% followed by 82% obtained by XGBoost and the Logistic regression for seasonal vaccine with 61%.
 
+
 TLDR;
+
 The Logistic Regression performed better for predicting the H1N1 flu and seasonal flu vaccination probability with an accuracy of 83% and 78%.
+
+
+TLDR2;
+
+The number of people who own their places are higher than the number of people who live in a rented place and it is observed that the people who own their place are the ones who are more likely to take the h1n1 and seasonal flu vaccine.
+
 
 ## CONCLUSION
 In this study, I predicted the probability of an individual who is likely to get vaccinated based on various features and factors provided by the NHFS data. The best accuracy was yielded by the logistic regression technique, which yielded an accuracy of 83% for the H1N1 flu and 85% for the Seasonal flu. For both labels, logistic regression yielded a better ROC score for the testing data set. The XG Boost method yielded a low score because there must be overfitting on the training data.
