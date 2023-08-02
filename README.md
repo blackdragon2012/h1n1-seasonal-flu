@@ -11,21 +11,27 @@ The main aim of this project was to predict how likely an individual is to recei
 https://cdn-coiao.nitrocdn.com/CYHudqJZsSxQpAPzLkHFOkuzFKDpEHGF/assets/static/optimized/rev-85bf93c/wp-content/uploads/2022/04/machine-learning-training_simple-visual-example.png
 
 A. Data Imputation
+
   Features with the missing values were mostly categorical, hence, mode imputation was used.
   
 B. Data Encoding
+
   Two different approaches was used. Where a mixture of Label encoding and One hot encoding was used.
   
 C. Feature Selection
+
   Correlation based and chi square feature selection method were used.
   
 D. Data Scaling
+
   Data was then normalised.
   
 E. Data Spliting
+
   A 80-20 split was used.
   
 F. Model Training and Hyper-parameter tuning
+
   Logistic regression and XGBoost methods were used to train the model. Further, to find the best hyperparameters, GridseacrchCV was used.
   
 E. Results
